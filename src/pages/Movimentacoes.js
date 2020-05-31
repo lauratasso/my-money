@@ -110,7 +110,6 @@ const Movimentacoes = ({ match }) => {
           </tr>
         </tbody>
       </table>
-      <pre>{JSON.stringify(data.data)}</pre>    
     </div>
   );
 }
