@@ -1,3 +1,4 @@
+## Introduction
 For this project, I use React JS and Firebase.
 I start designing this api to help me study React. So it's not perfect, but I will improve it.
 
