@@ -10,9 +10,6 @@
 
 # production
 /build
-/utils/useDelete
-/utils/useGet
-/utils/usePost
 
 # misc
 .DS_Store
