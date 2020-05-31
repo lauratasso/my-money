@@ -1,0 +1,15 @@
+.edit-in-place:hover{
+  background-color: darkgray;
+  padding: 4px 15px 4px 7px;
+  border-radius: 3px;
+}
+.edit-in-place{
+  margin: 4px;
+  padding: 0px 15px 0px 7px;
+}
+
+.input-editInplace{
+  margin-left: 6px;
+  width: 60px;
+  height: 20px;
+}

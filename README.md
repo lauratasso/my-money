@@ -1,3 +1,9 @@
+For this project, I use React JS and Firebase.
+I start designing this api to help me study React. So it's not perfect, but I will improve it.
+
+This website helps you magage and control your monthly expenses.
+First, you pick a date, month by month, and you start putting your expenses in there. You also have the entry forecast, if you like to make a prevision, then a exit forecast. And like this you will keep doing, and the api returns to you the sum of your expenses. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
