@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import Rest from '../../utils/rest';
 
 const baseURL = 'https://mymoney-lbt.firebaseio.com/';
@@ -13,10 +13,14 @@ const Months = () => {
     return <span>Carregando...</span> 
   }
 
+  if(data.error && data.error === 'Permission denied'){
+    return <Redirect to='/login' />
+  }
+
   if (Object.keys(data.data).length > 0){
     return (  
       <table className='table'>
-        <thead>
+        <thead className='table-dark'>
           <tr>
             <th>Mês</th>
             <th>Previsão Entrada</th>
